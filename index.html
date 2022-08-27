@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Travel Agency Website Design</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file cdn link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="index.html">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-paper-plane"></i> travel </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="searchBox">
+            <label for="searchBox" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-moon" id="theme-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#pricing">pricing</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+        <form action="data.php" class="login-form" method="post">
+
+            <div class="inputBox">
+                <span>username</span>
+                <input type="text" placeholder="enter your name" name="username">
+            </div>
+
+
+
+            <div class="inputBox">
+                <span>password</span>
+                <input type="password" placeholder="enter your password" name="password">
+            </div>
+
+            <div class="remember">
+                <input type="checkbox" name="" id="login-remember">
+                <label for="login-remember">remember me</label>
+            </div>
+
+            <input type="submit" class="btn" value="login">
+
+        </form>
+
+    </header>
+
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="image" data-aos="fade-down">
+            <img src="images/home-img.svg" alt="">
+        </div>
+
+        <div class="content" data-aos="fade-up">
+            <h3>adventure is worthwhile</h3>
+            <p> <strong>   Planning for your dreams Vacation </strong>is lot of . you are interesting in yourself by exapanding your cultural horizon and taking time off from the chaos of daily life. Natuarlly, you want to make the most of it. </p>
+            <a href="#" class="btn">explore now</a>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- filter form section starts  -->
+
+    <section class="form-container" data-aos="zoom-in">
+
+        <form action="book.php" method="post">
+
+            <div class="inputBox">
+                <span>where to</span>
+                <input type="text" placeholder="search places" name="place name">
+            </div>
+
+            <div class="inputBox">
+                <span>arrivals</span>
+                <input type="date" name="date">
+            </div>
+
+            <div class="inputBox">
+                <span>leaving</span>
+                <input type="date" name="date">
+            </div>
+
+            <input type="submit" value="book now" class="btn">
+
+        </form>
+
+    </section>
+
+    <!-- filter form section ends -->
+
+    <!-- packages section starts  -->
+
+    <section class="packages" id="packages">
+
+        <h1 class="heading"> our <span>packages</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/p-1.jpg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                </div>
+                <div class="content">
+                    <div class="price"> 290.99 <span>350.99</span> </div>
+                    <p> <strong>Mumbai the Capital City of Maharashtra is called the "city of dreams" or "Mayanagri" as they call .</strong> </p>
+                    <a href="#" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/p-2.jpg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> hawaii </h3>
+                </div>
+                <div class="content">
+                    <div class="price"> 290.99 <span>350.99</span> </div>
+                    <p><strong> Top Roted Boat Charter in Island .Enjoy the Space ,Privacy ,Luxury & Comfort.</strong></p>
+                    <a href="#" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/p-3.jpg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> sydney </h3>
+                </div>
+                <div class="content">
+                    <div class="price"> 290.99 <span>350.99</span> </div>
+                    <p><strong>It is classified as an Alpha+ World City by Globalization and World Cities Research Network, indicating its influence in the region and throughout the world.</strong></p>
+                    <a href="#" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/p-4.jpg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> paris </h3>
+                </div>
+                <div class="content">
+                    <div class="price"> 290.99 <span>350.99</span> </div>
+                    <p><strong>Paris Paris, capital of France, is one of the most important and influential cities in the world. In terms of tourism, Paris is the second most visited city in Europe after London. </strong></p>
+                    <a href="#" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/p-5.jpg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> tokyo </h3>
+                </div>
+                <div class="content">
+                    <div class="price"> 290.99 <span>350.99</span> </div>
+                    <p><strong>Tokyo ( , Tōkyō) is Japan's capital and the world's most populous metropolis. It is also one of Japan's 47 prefectures, consisting of 23 central city wards and multiple cities, towns and villages west of the city center. </strong></p>
+                    <a href="#" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/p-6.jpg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> egypt </h3>
+                </div>
+                <div class="content">
+                    <div class="price"> 290.99 <span>350.99</span> </div>
+                    <p><strong>Cairo is the capital of Egypt and the largest city in Africa, with a... Located in Upper Egypt Luxor has been described as the world’s... </strong></p>
+                    <a href="#" class="btn"> book now</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- packages section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading"> our <span>services</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="zoom-in">
+                <span>01</span>
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+            </div>
+
+            <div class="box" data-aos="zoom-in">
+                <span>02</span>
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+            </div>
+
+            <div class="box" data-aos="zoom-in">
+                <span>03</span>
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+            </div>
+
+            <div class="box" data-aos="zoom-in">
+                <span>04</span>
+                <i class="fas fa-globe"></i>
+                <h3>around the world</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+            </div>
+
+            <div class="box" data-aos="zoom-in">
+                <span>05</span>
+                <i class="fas fa-hiking"></i>
+                <h3>new adventures</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+            </div>
+
+            <div class="box" data-aos="zoom-in">
+                <span>06</span>
+                <i class="fas fa-bullhorn"></i>
+                <h3>safety guide</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- pricing section starts  -->
+
+    <section class="pricing" id="pricing">
+
+        <h1 class="heading"> our <span>pricing</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="zoom-in-up">
+                <h3> basic plan </h3>
+                <div class="price">
+                    <span>$</span>
+                    <span class="amount">30</span>
+                    <span>/mo</span>
+                </div>
+                <ul>
+                    <li>10 days</li>
+                    <li>food and drinks</li>
+                    <li>safty guide</li>
+                    <li>insurance</li>
+                    <li>luxury hotel</li>
+                </ul>
+                <a href="#" class="btn">choose plan</a>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up">
+                <h3> standard plan </h3>
+                <div class="price">
+                    <span>$</span>
+                    <span class="amount">50</span>
+                    <span>/mo</span>
+                </div>
+                <ul>
+                    <li>20 days</li>
+                    <li>food and drinks</li>
+                    <li>safty guide</li>
+                    <li>insurance</li>
+                    <li>luxury hotel</li>
+                </ul>
+                <a href="#" class="btn">choose plan</a>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up">
+                <h3> premium plan </h3>
+                <div class="price">
+                    <span>$</span>
+                    <span class="amount">90</span>
+                    <span>/mo</span>
+                </div>
+                <ul>
+                    <li>30 days</li>
+                    <li>food and drinks</li>
+                    <li>safty guide</li>
+                    <li>insurance</li>
+                    <li>luxury hotel</li>
+                </ul>
+                <a href="#" class="btn">choose plan</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- pricing section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> client's <span>review</span> </h1>
+
+        <div class="swiper-container review-slider" data-aos="zoom-in">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <img src="images/WhatsApp Image 2022-05-14 at 12.04.47 AM.jpeg" alt="">
+                    <h3>Tanuja Dimble</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur sunt eligendi est, dicta maiores amet nihil perferendis, incidunt maxime aspernatur exercitationem laboriosam odio dolores magnam ratione atque, quasi odit. Hic!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="images/WhatsApp Image 2022-05-14 at 12.05.38 AM.jpeg" alt="">
+                    <h3>Harshali Arjun</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur sunt eligendi est, dicta maiores amet nihil perferendis, incidunt maxime aspernatur exercitationem laboriosam odio dolores magnam ratione atque, quasi odit. Hic!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="images/WhatsApp Image 2022-05-14 at 12.06.17 AM.jpeg" alt="">
+                    <h3>Surema Kartik</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur sunt eligendi est, dicta maiores amet nihil perferendis, incidunt maxime aspernatur exercitationem laboriosam odio dolores magnam ratione atque, quasi odit. Hic!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="images/WhatsApp Image 2022-05-14 at 12.03.34 AM.jpeg" alt="">
+                    <h3>Priyanka Admane</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur sunt eligendi est, dicta maiores amet nihil perferendis, incidunt maxime aspernatur exercitationem laboriosam odio dolores magnam ratione atque, quasi odit. Hic!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>contact</span> us </h1>
+
+        <form action="contactus.php" data-aos="zoom" method="post">
+
+            <div class="inputBox">
+                <input type="text" placeholder="name" data-aos="fade-up" name="uname">
+                <input type="email" placeholder="email" data-aos="fade-up" name="email">
+            </div>
+
+            <div class="inputBox">
+                <input type="number" placeholder="number" data-aos="fade-up" name="number">
+                <input type="text" placeholder="subject" data-aos="fade-up" name="subject">
+            </div>
+
+            <textarea placeholder="your message" id="" cols="30" rows="10" data-aos="fade-up" name="your_message"></textarea>
+
+            <input type="submit" value="send message" class="btn">
+
+        </form>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- blog section starts  -->
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> our <span>blogs</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/blog-1.svg" alt="">
+                </div>
+                <div class="content">
+                    <h3>explore the world now, adventure awaits</h3>
+                    <a href="#" class="btn">read more</a>
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-calendar"></i> 1st jan, 2021 </a>
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/blog-2.svg" alt="">
+                </div>
+                <div class="content">
+                    <h3>explore the world now, adventure awaits</h3>
+                    <a href="#" class="btn">read more</a>
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-calendar"></i> 1st jan, 2021 </a>
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/blog-3.svg" alt="">
+                </div>
+                <div class="content">
+                    <h3>explore the world now, adventure awaits</h3>
+                    <a href="#" class="btn">read more</a>
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-calendar"></i> 1st jan, 2021 </a>
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- blog section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-up">
+                <h3>our branches</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> india </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> russia </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> canada </a>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <h3>quick links</h3>
+                <a href="#"> <i class="fas fa-chevron-right"></i> home </a>
+                <a href="#"> <i class="fas fa-chevron-right"></i> packages </a>
+                <a href="#"> <i class="fas fa-chevron-right"></i> services </a>
+                <a href="#"> <i class="fas fa-chevron-right"></i> pricing </a>
+                <a href="#"> <i class="fas fa-chevron-right"></i> review </a>
+                <a href="#"> <i class="fas fa-chevron-right"></i> contact </a>
+                <a href="#"> <i class="fas fa-chevron-right"></i> blogs </a>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +91-9834859360 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +91-9764709557 </a>
+                <a href="#"> <i class="fas fa-envelop"></i> umachauhan59453@gmail.com </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Pune, Hadapsar - 411028 </a>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <h3>follow us</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+                <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+            </div>
+
+        </div>
+
+      
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            delay: 400
+        });
+    </script>
+
+</body>
+
+</html>
